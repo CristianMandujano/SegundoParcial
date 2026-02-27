@@ -7,7 +7,7 @@ alumno1 = {
     }
 ico201=[]
 os.system('cls')
-num=int(input("¿Cuantos alunnos,quieres ingresar?"))
+num=int(input("¿Cuantos alunnos,quieres registrar?"))
 for i in range(num):
     nombre = input("Nombre del alumno:")
     edad = int(input("Edad del alumno:" ))
@@ -28,6 +28,8 @@ for i in range(num):
 
 cantidad = len(ico201)
 suma = 0
+
+
 for alumno in ico201:
     suma += alumno["calificacion"]
 

@@ -13,5 +13,9 @@ print("La cantidad de elementos en la tupla es: ", len(tupla))
 print("La cantida de veces que se repite el numero 2 es: ", tupla.count(2))
 print("El indice del numero 3 es : ", tupla.index(3))
 
-tupla.append(6) #Esto generara un error ya que las tuplas son familia
 
+datos=("juan", 20, True)
+
+una_tupla=(5)
+print(datos)
+print(una_tupla)
