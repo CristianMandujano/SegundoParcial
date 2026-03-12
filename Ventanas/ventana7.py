@@ -18,7 +18,7 @@ fondo=ImageTk.PhotoImage(imagen)
 label_fondo=tk.Label(root, image=fondo)
 label_fondo.place(x=0, y=0, relwidth=1, relheight=1)
 
-frame_acciones=tk.LabelFrame(root, text="Acciones", bg="#1E3A8A", fg="white", padx=10, pady=10 )
+frame_acciones=tk.LabelFrame(root, text="Acciones", bg="#2672BA", fg="white", padx=10, pady=10 )
 frame_acciones.place(x=200, y=250, width=200, height=100)
 tk.Button(frame_acciones, text="salir", command=cerrar).pack(pady=20)
 
